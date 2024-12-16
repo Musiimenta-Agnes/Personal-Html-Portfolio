@@ -1,0 +1,30 @@
+.paragraph {
+    color: rgb(231, 231, 189);
+    text-align: center;
+
+    font-size: larger;
+}
+
+
+a {
+    color: rgb(19, 198, 243);
+}
+
+a:hover {
+    color: rgb(231, 7, 7);
+}
+
+.pics li {
+    padding: 20px 30px;
+}
+li {
+    float: left;
+}
+
+
+.hover-enlarge {
+    transition: transform 0.1s ease;
+}
+.hover-enlarge:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,112 @@
+
+
+@media(max-width:768px){
+    nav ul {
+        flex-direction: column;
+    }
+    nav li{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+     
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px 4px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-family: Geneva;
+    
+    
+
+}
+li a:hover {
+color: red;
+
+}
+
+
+
+body {
+    background-image: url(../images/3d\ iage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image-container {
+    text-align: right;
+    margin: 20px;
+    float: right;
+    border-radius: 200px;
+    
+    
+    
+    
+}
+
+.image-name {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.button:hover{
+background-color: darkmagenta;
+}
+.words {
+    font-family: Geneva;
+    font-size: xx-large;
+    margin-left: 50px;
+
+}
+
+
+.hover-enlarge {
+    transition: transform 0.3s ease;
+}
+.hover-enlarge:hover {
+    transform: scale(1.2);
+}
+.button {
+    background-color: darkorange;
+    color: black;
+    border-radius: 20px;
+    padding-right: 40px; 
+    font-size: larger;
+    padding-left: 40px ;
+
+}
+.button:hover {
+    background-color: aliceblue;
+    color: crimson;
+}
+#name {
+    margin: auto;
+    padding-right: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: gold;
+    font-size: x-large;
+    font-family: 'Lucida Grande';
+}
+
+
+
+    
